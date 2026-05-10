@@ -65,6 +65,9 @@ implementation for a hybrid environment including:
 # Step 6: Enable identity protection
 .\05-identity-protection\enable-identity-protection.ps1
 
+# Step 7: Generate final report
+.\06-audit-compliance\generate-security-report.ps1
+
 ## Key Results
 - 5 Conditional Acess Policies implemented
 - Complete MFA coverage audit
@@ -75,6 +78,3 @@ implementation for a hybrid environment including:
 ## Author
 ## Uzma Shabbir
  
-
-# Step 7: Generate final report
-.\06-audit-compliance\generate-security-report.ps1
